@@ -1,4 +1,16 @@
 *{
+    margin: 0;
+    padding: 0;
+}
 
-    background-color: bisque;
+header{
+    background-color: white;
+}
+
+
+ #titulo{
+
+    font-size: 3em;
+    padding-left: 10%;
+     color: rgba(114,98,119,1);
 }

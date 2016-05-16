@@ -3,14 +3,112 @@
     padding: 0;
 }
 
+
 header{
     background-color: white;
 }
 
+body{
+
+background-color: #273746 ;
+
+}
 
  #titulo{
 
     font-size: 3em;
-    padding-left: 10%;
+    padding-left: 5%;
      color: rgba(114,98,119,1);
+}
+
+
+/*parte principal main*/
+
+
+.main{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.post{
+
+    padding-bottom:20px;
+    margin-bottom: 20px;
+    border: solid 1px #000000;
+    background-color: white;
+    padding:2%;
+    box-sizing: border-box;
+}
+
+.post .post-title a{
+
+    color: #333;
+    text-decoration: none;
+
+}
+
+
+.post .post-title a:hover{
+
+    color:#F7DC6F;
+
+}
+
+.post .thumb{
+
+    margin-right: 10px;
+    width: 40%;
+}
+
+
+.post .thumb img{
+
+    width: 100%;
+
+}
+
+.post .contenedor-botones{
+
+    width: 100%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+#lateral a {
+
+    margin-bottom: 2%;
+
+}
+
+#titulo_aside{
+
+    color: white;
+
+}
+
+
+footer{
+
+
+    background-color: black;
+}
+
+
+/*media query imagenes responsive*/
+
+@media screen and (max-width:768px){
+
+    .post .thumb{
+
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+
+
+    }
+
 }
